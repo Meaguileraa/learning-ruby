@@ -32,6 +32,19 @@ puts ("but didn't like being " + age)
 
 #_____________________________________________
 
+#Data Types 
+
+#Strings, Integers, FLoats, Boolean, and Nil (None )
+occupation = "programmer"
+age = 45
+n = 3.2
+hungry = false 
+flaws = nil
+
+
+
+#_____________________________________________
+
 #Functions
 
 def numbers
