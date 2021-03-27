@@ -1,5 +1,5 @@
 
-
+#03/26
 #_____________________________________________
 #Ways to print (p, puts, print)
 
@@ -19,7 +19,16 @@ puts "bacon".chars #returns each character of the string
 
 #_____________________________________________
 
-puts "1" + "1" #11
+#Variables
+
+name = "Marissa"
+age = "27"
+
+puts ("There once was a woman named " + name)
+puts ("she was " + age + " years old.")
+puts ("She really liked the name " + name)
+puts ("but didn't like being " + age)
+
 
 #_____________________________________________
 
@@ -27,6 +36,25 @@ puts "1" + "1" #11
 
 def numbers
     puts 123 
+    p 123 
 end
 
 numbers 
+
+#_____________________________________________
+
+
+
+
+
+
+
+#_____________________________________________
+#How to run ruby in the terminal 
+
+#type irb to enter the ruby runner (this is interactive)
+# type exit to quit 
+
+# type ruby app.rb (this runs the entire file)
+
+#_____________________________________________
