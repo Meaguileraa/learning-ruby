@@ -20,3 +20,13 @@ puts "bacon".chars #returns each character of the string
 #_____________________________________________
 
 puts "1" + "1" #11
+
+#_____________________________________________
+
+#Functions
+
+def numbers
+    puts 123 
+end
+
+numbers 
