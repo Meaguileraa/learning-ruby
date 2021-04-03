@@ -8,14 +8,6 @@ print "Marissa is learning Ruby"
 puts "Marissa is learning Ruby"
 # Puts adds a new line at the end of a message and print does not. 
 
-#_____________________________________________
-
-#What to do with strings 
-puts "bacon".size #length
-puts "bacon".upcase #all uppercase 
-puts "bacon".gsub("acon", "inary")
-puts "Great".gsub("eat", "oss") # substitutes characters 
-puts "bacon".chars #returns each character of the string 
 
 #_____________________________________________
 
@@ -28,6 +20,10 @@ puts ("There once was a woman named " + name)
 puts ("she was " + age + " years old.")
 puts ("She really liked the name " + name)
 puts ("but didn't like being " + age)
+
+animal = "Giraffe"
+
+puts animal 
 
 
 #_____________________________________________
@@ -42,6 +38,16 @@ hungry = false
 flaws = nil
 
 
+#_____________________________________________
+
+#What to do with strings 
+puts "bacon".size #length
+puts "bacon".upcase #all uppercase 
+puts "BACON".downcase #all lowercase 
+
+puts "bacon".gsub("acon", "inary")
+puts "Great".gsub("eat", "oss") # substitutes characters 
+puts "bacon".chars #returns each character of the string 
 
 #_____________________________________________
 
@@ -54,13 +60,20 @@ end
 
 numbers 
 
+def countSheep array
+
+end
 #_____________________________________________
 
+#Arrays 
 
+animals = ['iguana', 'elephant', 'rhino', 'flamingo', 'peacock']
+puts animals[2]
+#indexing
 
-
-
-
+animals << 'monkey'
+p animals
+#adding to an array 
 
 #_____________________________________________
 #How to run ruby in the terminal 
