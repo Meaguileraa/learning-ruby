@@ -91,6 +91,24 @@ animals.delete('elephant')
 p animals
 #removing an element using the value 
 #_____________________________________________
+
+#Exercises
+#1 - Create an array with the name of food with these values: “bacon”, “orange”, “apple”
+
+food = ['bacon', 'orange', 'apple']
+p food
+
+#2 - Access the first element of the food array
+p food[0]
+
+#3 - Access the last elements of the food array
+p food[2]
+
+#4 - Add a new element into the array: “yogurt”
+food << 'mango'
+p food
+
+#_____________________________________________
 #How to run ruby in the terminal 
 
 #type irb to enter the ruby runner (this is interactive)
