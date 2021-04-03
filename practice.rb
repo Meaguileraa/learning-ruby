@@ -75,6 +75,14 @@ animals << 'monkey'
 p animals
 #adding to an array 
 
+animals.shift # or animals.shift()
+p animals
+#removing the first element in an array 
+
+animals.pop # or animals.pop()
+p animals
+#removing the last element in an array 
+
 #_____________________________________________
 #How to run ruby in the terminal 
 
