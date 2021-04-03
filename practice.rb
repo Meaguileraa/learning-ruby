@@ -83,6 +83,13 @@ animals.pop # or animals.pop()
 p animals
 #removing the last element in an array 
 
+animals.delete_at(2)
+p animals
+#removing at a given index 
+
+animals.delete('elephant')
+p animals
+#removing an element using the value 
 #_____________________________________________
 #How to run ruby in the terminal 
 
