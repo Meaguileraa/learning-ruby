@@ -112,11 +112,15 @@ p food
 
 #If statements 
 
-n = 5
+n = 3
 
 if n == 5
     puts "yay"
-end
+elsif n == 3
+    puts "great"
+else 
+    puts "no"
+end 
 
 
 #Conditional symbols >, <, ==, !=, >=, <=, && (AND), || (OR)
