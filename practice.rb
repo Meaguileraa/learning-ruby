@@ -122,6 +122,19 @@ else
     puts "no"
 end 
 
+#Multiple Conditions using && and ||
+
+name = "Marissa"
+city = "SF"
+
+if name == "Marissa" && city ="SF"
+    puts "yadadamean"
+end
+
+
+if city == "SF" || city == "San Bruno"
+    puts "I went to high school here"
+end
 
 #Conditional symbols >, <, ==, !=, >=, <=, && (AND), || (OR)
 # Remember, using unless in Ruby is just the reverse of using if.
