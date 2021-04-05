@@ -109,7 +109,7 @@ food << 'mango'
 p food
 
 #_____________________________________________
-
+#04/05
 #If statements 
 
 n = 3
@@ -121,8 +121,10 @@ elsif n == 3
 else 
     puts "no"
 end 
+# Remember, using unless in Ruby is just the reverse of using if.
 
 #Multiple Conditions using && and ||
+#Conditional symbols >, <, ==, !=, >=, <=, && (AND), || (OR)
 
 name = "Marissa"
 city = "SF"
@@ -136,8 +138,27 @@ if city == "SF" || city == "San Bruno"
     puts "I went to high school here"
 end
 
-#Conditional symbols >, <, ==, !=, >=, <=, && (AND), || (OR)
-# Remember, using unless in Ruby is just the reverse of using if.
+#One line if statement 
+puts "Great job" if name == "Marissa"
+puts 123 if 2.even? #have to include question mark at the end for a method 
+
+#Ternary operator 
+puts 40 > 100 ? "Greater than" : "Less than"
+puts 50 + -50 == 0? "Correct" : "Incorrect" 
+puts "house".size == 4? "Yes" : "No"
+puts "House".gsub("H", "M") == "Mouse"? "Hooray": "Oh no"
+#_____________________________________________
+#Loops
+
+# Each Loop
+
+numbers = [3, 5, 7, 9, 11]
+
+numbers.each { |n| puts n }
+
+# hash = { watermelon: 200, coconut: 300, mango: 400 } 
+
+# hash.each { |key,value| puts }
 
 #_____________________________________________
 #How to run ruby in the terminal 
