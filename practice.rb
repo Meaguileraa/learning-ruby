@@ -109,6 +109,20 @@ food << 'mango'
 p food
 
 #_____________________________________________
+
+#If statements 
+
+n = 5
+
+if n == 5
+    puts "yay"
+end
+
+
+#Conditional symbols >, <, ==, !=, >=, <=, && (AND), || (OR)
+# Remember, using unless in Ruby is just the reverse of using if.
+
+#_____________________________________________
 #How to run ruby in the terminal 
 
 #type irb to enter the ruby runner (this is interactive)
