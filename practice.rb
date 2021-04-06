@@ -158,6 +158,11 @@ numbers.each { |n| puts n }
 hash = { watermelon: 200, coconut: 300, mango: 400 } 
 hash.each { |key,value| puts "#{key} price is $#{value}"}
 
+#Each with index 
+
+pets = ["Marley", "Maya", "Chloe"]
+pets.each_with_index { |pet, idx| puts "This is #{pet} with an index of #{idx}"}
+
 
 #Times Loop 
 
