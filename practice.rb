@@ -158,17 +158,31 @@ numbers.each { |n| puts n }
 hash = { watermelon: 200, coconut: 300, mango: 400 } 
 hash.each { |key,value| puts "#{key} price is $#{value}"}
 
-#Each with index 
+#Each with index (index starts at 0)
 
 pets = ["Marley", "Maya", "Chloe"]
 pets.each_with_index { |pet, idx| puts "This is #{pet} with an index of #{idx}"}
 
 
-#Times Loop 
+#Times Loop (starts counting at 0)
 
 5.times { puts "good luck" } # prints good luck 5 times 
 
-5.times { |i| puts "hello #{i}"} 
+5.times { |i| puts "hello #{i}"} # i = 0, 1, 2,3 ,4
+
+
+#Range Loop 
+
+(1..10).each { |i| puts i }
+
+
+#While Loop 
+
+n = 0
+while n < 10 #prints 0-9
+    puts "in the while loop ##{n}" 
+    n += 1
+end
 #_____________________________________________
 
 
