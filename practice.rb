@@ -205,6 +205,18 @@ end
 puts (0...10).select(&:even?)
 
 
+#breaking a loop early
+
+numbers = [1,2,4,9,12]
+numbers.each do |n|
+  break if n > 10
+  puts "breaking loop #{n}"
+end
+
+
+#up to method
+
+1.upto(5) { |i| puts "upto method: #{i}" }
 #_____________________________________________
 
 
