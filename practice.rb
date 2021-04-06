@@ -191,6 +191,20 @@ until bottle == 10 #prints 1-10
     bottle += 1
     puts "still in until loop #{bottle}"
 end
+
+
+#skipping with the next keyword 
+
+10.times do |i| 
+    next unless i.even? # only prints the even numbers 
+    puts "hello #{i}"
+end
+
+#another way of doing this with step and select keywords: 
+
+puts (0...10).select(&:even?)
+
+
 #_____________________________________________
 
 
