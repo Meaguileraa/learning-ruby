@@ -183,6 +183,14 @@ while n < 10 #prints 0-9
     puts "in the while loop ##{n}" 
     n += 1
 end
+
+#Until Loop 
+
+bottle = 0 
+until bottle == 10 #prints 1-10
+    bottle += 1
+    puts "still in until loop #{bottle}"
+end
 #_____________________________________________
 
 
