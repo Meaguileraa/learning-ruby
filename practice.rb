@@ -156,9 +156,17 @@ numbers = [3, 5, 7, 9, 11]
 
 numbers.each { |n| puts n }
 
-# hash = { watermelon: 200, coconut: 300, mango: 400 } 
+hash = { watermelon: 200, coconut: 300, mango: 400 } 
 
-# hash.each { |key,value| puts }
+hash.each { |key,value| puts key, value}
+
+#_____________________________________________
+
+
+
+
+
+
 
 #_____________________________________________
 #How to run ruby in the terminal 
